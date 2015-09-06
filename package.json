@@ -1,0 +1,45 @@
+{
+  "name": "react-essentials-project",
+  "version": "1.0.0",
+  "description": "Example of a project described in React.js Essentials book.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedosejev/react-essentials-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedosejev/react-essentials-project/issues"
+  },
+  "homepage": "https://github.com/fedosejev/react-essentials-project",
+  "devDependencies": {
+    "babel-jest": "^5.3.0",
+    "babelify": "^6.2.0",
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "jest-cli": "^0.4",
+    "react-addons-test-utils": "^0.14.0-beta3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "flux": "^2.1.1",
+    "object-assign": "^4.0.1",
+    "react": "^0.14.0-beta3",
+    "react-dom": "^0.14.0-beta3",
+    "snapkite-stream-client": "^1.0.3"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": [
+      "es6",
+      "js"
+    ],
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ]
+  }
+}
